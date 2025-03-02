@@ -34,6 +34,7 @@ Plug 'vimwiki/vimwiki'
 Plug('nvim-lualine/lualine.nvim') --statusline
 Plug 'mhinz/vim-startify'
 Plug 'iamcco/markdown-preview.nvim'
+Plug 'xiyaowong/transparent.nvim'
 
 
 vim.call('plug#end')

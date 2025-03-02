@@ -48,5 +48,6 @@ map("n", "<leader>t", ":NvimTreeToggle<CR>") --open file explorer
 map("n", "<leader>P", ":PlugInstall<CR>") --vim-plug
 map("n", "<leader>R", ":so %<CR>") --reload neovim config
 map("n", "<leader>z", ":ZenMode<CR>") --reload neovim config
+map("n", "<leader>T", ":TransparentToggle<CR>") --TransparentToggle
 
 
