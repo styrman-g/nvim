@@ -39,6 +39,31 @@ require("lazy").setup({
   -- Visualize buffers as tabs
 {'akinsho/bufferline.nvim', version = "*", dependencies = 'nvim-tree/nvim-web-devicons'},
 
+-- Lualine
+{
+    'nvim-lualine/lualine.nvim',
+    dependencies = { 'nvim-tree/nvim-web-devicons' }
+},
+
+-- A startup screen
+{
+  "startup-nvim/startup.nvim",
+  dependencies = { "nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim", "nvim-telescope/telescope-file-browser.nvim" },
+  config = function()
+    require "startup".setup()
+  end
+},
+
+-- Zen-mode
+{
+  "folke/zen-mode.nvim",
+  opts = {
+    -- your configuration comes here
+    -- or leave it empty to use the default settings
+    -- refer to the configuration section below
+  }
+},
+
 })
 
 

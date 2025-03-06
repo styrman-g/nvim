@@ -9,3 +9,6 @@ vim.keymap.set("n", "<leader>e", ":NvimTreeFindFileToggle<cr>")
 
 -- markdown preview
 vim.keymap.set("n", "<leader>mp", ":MarkdownPreviewToggle<cr>")
+
+--Zen-mode
+vim.keymap.set("n", "<leader>z", ":ZenMode<cr>")
