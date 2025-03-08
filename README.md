@@ -1,6 +1,6 @@
 ## My build of neovim in lua 
 
-#### Hove to build Neovim with my configuration.
+#### How to build Neovim with my configuration.
 
 <br>
 
