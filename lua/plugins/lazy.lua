@@ -17,11 +17,6 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
 	{ "catppuccin/nvim", name = "catppuccin", priority = 1000 },
-	-- init.lua:
-    {
-    'nvim-telescope/telescope.nvim', tag = '0.1.8',
-      dependencies = { 'nvim-lua/plenary.nvim' }
-    },
 
     -- File tree
  {
@@ -80,6 +75,14 @@ require("lazy").setup({
         vim.o.hidden = true
         require('nvim-terminal').setup()
     end,
+},
+{
+  "ibhagwan/fzf-lua",
+  -- optional for icon support
+  dependencies = { "nvim-tree/nvim-web-devicons" },
+  -- or if using mini.icons/mini.nvim
+  -- dependencies = { "echasnovski/mini.icons" },
+  opts = {}
 },
 })
 
