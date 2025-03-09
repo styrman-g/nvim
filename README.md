@@ -6,8 +6,6 @@
 
 > Before starting, ensure you have:
 > - **neovim** 
-> - **ripgrep** - for the telescope plugin to work. 
-
 <br> 
 
 ### Quickstart with my config:
